@@ -1,0 +1,17 @@
+{
+  "name": "postcss-loader-bug",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "NODE_ENV=development yarn install && webpack-dev-server"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "css-loader": "^0.28.1",
+    "postcss": "^6.0.1",
+    "postcss-loader": "^2.0.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
